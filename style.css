@@ -554,6 +554,10 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
+a img{
+    width : 100%;
+}
+
 a[data-lightbox]:hover img {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
